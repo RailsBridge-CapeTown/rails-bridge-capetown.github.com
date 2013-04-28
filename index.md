@@ -4,14 +4,18 @@
 
 **Free Ruby on Rails workshops for women and their friends.**
 
-The RailsBridge Workshop is a free 1-and-a-bit day course run by a volunteer team of experienced and enthusiastic developers. It is designed to provide people of all backgrounds with an introduction to programming concepts, the tools available, and the techniques of Ruby and Rails development. It will help if you are generally proficient with computers. To attend, you should identify as a woman, or be the male guest of a woman who is attending.
+The RailsBridge Workshop is a free 1-and-a-bit day course run by a volunteer team of experienced and enthusiastic developers. It is designed to provide people of all backgrounds with an introduction to programming concepts, the tools available, and the techniques of Ruby and Rails development.
+
+To attend, you should identify as a woman, or be the male guest of a woman who is attending. You should be comfortable using a computer, but no programming experience or hardware expertise is required.
+
+If you have your own laptop you should bring it along. We like Macs, but Windows and Linux machines are very welcome too.
 
 [Ruby](http://www.ruby-lang.org/en/) is a free, open source programming language with a focus on simplicity and productivity, and [Ruby on Rails](http://rubyonrails.org/) is a web application framework: a reusable set of shortcuts that help you build dynamic web sites.
 
 The workshop is made up of
 
-* an InstallFest on Friday night, with drinks and finger food, where we help you set up your machine with the software you'll need;
-* an all-day Workshop on Saturday, including breakfast and lunch, where you learn Ruby, Rails, and build a web app.
+* an InstallFest on Friday night, with drinks and finger food, where we help you set up your computer with the software you'll need; and
+* an all-day Workshop on Saturday, including breakfast and lunch, where you learn to use both Ruby and Rails, and build a web app.
 
 
 ### Additional Information
@@ -19,9 +23,6 @@ The workshop is made up of
 We won't have childcare facilities at the venue, unfortunately, but please let us know if we can help organising or finding childcare for while you're at the workshop.
 
 We'll be teaching in English, but we also have Afrikaans-speaking teachers.
-
-
-
 
 
 ## Why
@@ -37,16 +38,9 @@ We want to bring more people into the local Ruby community through diversity and
 
 ## When & Where
 
-### Installfest
+### InstallFest
 
 Friday 26th July 2013, 6pm - 9pm
-
-Unboxed Consulting offices
-Madison Place
-Alphen Office Park
-Constantia 7806
-
-[Google Map for Unboxed Offices](http://goo.gl/maps/SxLkY)
 
 ### Workshop
 
@@ -54,10 +48,7 @@ Saturday 27th July 2013, 9am - 6pm
 
 Breakfast and lunch will be served.
 
-Unboxed Consulting offices
-Madison Place
-Alphen Office Park
-Constantia 7806
+InstallFest and Workshop will both take place at Unboxed Consulting offices, Madison Place, Alphen Office Park, Constantia.
 
 [Google Map for Unboxed Offices](http://goo.gl/maps/SxLkY)
 
@@ -65,9 +56,7 @@ Constantia 7806
 
 Saturday 27th July 2013, 6pm until it's over
 
-[Peddlars on the Bend](http://www.peddlars.co.za/)
-13 Spaanschemat River Road
-Constantia 7800
+[Peddlars on the Bend](http://www.peddlars.co.za/), 13 Spaanschemat River Road, Constantia.
 
 [Google Map for Peddlars on the Bend](http://goo.gl/maps/syg1D)
 
@@ -86,16 +75,19 @@ List of teachers, with short bio
 
 ## Sponsors
 
-* Unboxed Consulting
-* Hetzner
+![Unboxed Consulting logo](unboxed-logo.png)
+The largest Ruby on Rails development agency in London and Cape Town.
+
+![Hetzner logo](hetzner-logo.png)
+At Hetzner South Africa we are passionate about web hosting – it’s our core business and it's what we do best.
 
 ## After the Workshop
 
-Keep in touch with other attendees and volunteers on Twitter and email.
+Keep in touch with other attendees and volunteers on Twitter and email. Use the hashtag [\#RBCPT](https://twitter.com/search/realtime?q=%23rbcpt).
 
 ### The next one!
 
-We'll be running another workshop in October 2013. If you can't make the July one, come along to the next.
+We'll be running another workshop in October 2013. If you can't make it in July, come along to that one.
 
 If you attend the workshop, think about coming to the next one as a teacher or teaching assistant.
 
@@ -116,6 +108,6 @@ RailsBridge needs your help! You could:
 * Attend a workshop.
 * Tell a woman you know about RailsBridge, and encourage her to attend a workshop.
 * Teach at a workshop.
-* Contribute to [the curriculum or Installfest instructions on GitHub](https://github.com/railsbridge/docs).
+* Contribute to [the curriculum or InstallFest instructions on GitHub](https://github.com/railsbridge/docs).
 * Speak up for diversity in tech in your office or community.
 * Join us!
