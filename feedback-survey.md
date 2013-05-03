@@ -1,9 +1,10 @@
 # Feedback
 
-Hi,
+Thank you for attending the RailsBridge event. We'd really appreacite your feedback.
 
-Thanks for attending the RailsBridge event. Please could you give us some feedback.
-
-1. Write a few words about the what you thought about the course content and whether you feel prepared to write a rails application.
-2. If you had to run this course what would you change?
-3. Any other feedback you would like to share?
+1. Will you recommend a Railsbridge workshop to a friend or colleague, and why?
+2. What was the best thing about the workshop?
+3. What was the worst thing about the workshop?
+4. What would you like to see changed?
+5. Do you feel prepared to write a Ruby on Rails application?
+6. Is there any other feedback you'd like to share?
