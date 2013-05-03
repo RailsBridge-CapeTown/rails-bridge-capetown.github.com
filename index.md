@@ -71,7 +71,35 @@ Link to Classroom7 forms
 
 ## Teachers
 
-List of teachers, with short bio
+* **Pawel Janiak** He loves Ruby. He's got a crush on JavaScript. He makes terrible jokes.
+
+
+* **Joerg Diekmann** South Africa's greatest Rails developer. His nickname is Jurgen. It's short for Jörg. He answers to both, because he's a pretty chill guy. He strives to maintain traditional German excellence in all the code he writes. He also builds watches in his spare time. ... He is a lumberjack.
+
+* **Stuart Corbishley** Stuart is an experienced software developer specializing in Ruby, Rails and systems integration. Having a background in scaling and automation he is also a practiced photographer, bringing a passion for simple and beautiful designs inside and out.
+
+* **Sachin Ranchod** Sachin is a Ruby developer who joined Siyelo after escaping the management consulting world. He comes packing experience in business analysis, project management, user experience (UX) design and beard growing.
+
+* **Glenn Roberts** Glenn is the founder and lead developer at Siyelo. He brings over 12 years of professional software development experience and a rather strange sense of humor to the team.
+
+* **Nic Young** Nic has seven years of professional development experience, and is a published author of short fiction. He thinks Haskell is the demanding supermodel of languages, and Ruby the girl next door. He brings unnecessary metaphors to the team.
+
+* **Luke Randall**
+
+* **Sandra Randall**
+
+* **Rory McKinley**
+
+## Organisers
+
+* **Steve Barnett** Steve has a background in Maths and finance and started work as a Front End Developer in 2005, escaping to South Africa from his native England. He started at Unboxed Consulting in November 2012, and he's most interested in the multi-device world and making the web accessible to all.
+
+* **Rich Archer** He's been working as a front-end developer for 6 years in London, but recently upped sticks and moved to beautiful Cape Town. He loves that he gets to work with a fantastic team of like-minded folk that are all as passionate about the web as him, and gets to enjoy the beach, beer and braai lifestyle of South Africa at the same time.
+
+* **Andrew Higson-Smith**
+
+* **Rudy Neeser**
+
 
 ## Sponsors
 
