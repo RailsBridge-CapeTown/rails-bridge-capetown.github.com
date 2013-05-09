@@ -19,11 +19,19 @@
 
   <!-- Serve basic style.css to everything, enhanced.css to larger screens and IE. Keep html.*ie* for element fixes. -->
   <link rel="stylesheet" href="stylesheets/style.css" media="screen, handheld"/>
-  <link rel="stylesheet" href="stylesheets/enhanced.css" media="screen  and (min-width: 40.5em)"/>
-  <!--[if (lt IE 9)&(!IEMobile)]><link rel="stylesheet" href="stylesheets/ie.css" /> <![endif]-->
 
   <!-- For author information in search results. Add Google+ profile URL. http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1408986 -->
   <link rel="author" href="" />
+
+<script type="text/javascript">
+  (function() {
+    var config = {
+      kitId: 'vhd8ejg',
+      scriptTimeout: 3000
+    };
+    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+  })();
+</script>
 
 </head>
 
@@ -36,7 +44,12 @@
 
   </header>
 
-  <a id="jump" href="#nav">Menu</a>
+    <nav role="navigation" id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="code-of-conduct.html">Code of Conduct</a></li>
+      </ul>
+    </nav>
 
   <main role="main" id="main" class="main" tabindex="-1">
 
@@ -45,31 +58,8 @@
   </main>
 
   <footer role="contentinfo" id="footer">
-    <nav role="navigation" id="nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="code-of-conduct.html">Code of Conduct</a></li>
-      </ul>
-    </nav>
+
   </footer>
-
-  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-       mathiasbynens.be/notes/async-analytics-snippet -->
-  <script>
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7 ]>
-    <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-
-  <a href="#top">Back to top of page &uarr;</a>
 
 </body>
 </html>
