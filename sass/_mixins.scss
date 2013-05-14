@@ -1,0 +1,160 @@
+@mixin link-colours($link, $visited: darken($link, 20), $hover: lighten($link, 20), $focus: lighten($link, 20)) {
+	&:link {
+		color: $link;
+	}
+	&:visited {
+		color: $visited;
+	}
+	&:hover {
+		color: $hover;
+	}
+	&:focus {
+		color: $focus;
+	}
+	&:active {
+		color: $hover;
+	}
+}
+
+@mixin link-background-colours($link, $visited: darken($link, 20), $hover: lighten($link, 20), $focus: lighten($link, 20)) {
+	&:link {
+		background-color: $link;
+	}
+	&:visited {
+		background-color: $visited;
+	}
+	&:hover {
+		background-color: $hover;
+	}
+	&:focus {
+		background-color: $focus;
+	}
+	&:active {
+		background-color: $hover;
+	}
+}
+
+// sassed clearless bits
+
+@mixin placeholder($color: #DDD) {
+	:-moz-placeholder {
+		color: $color;
+	}
+	::-webkit-input-placeholder {
+		color: $color;
+	}
+}
+
+@mixin ir {
+	border: 0;
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	background-color: transparent;
+}
+
+@mixin visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	&.focusable:active,
+	&.focusable:focus {
+	    clip: auto;
+	    height: auto;
+	    margin: 0;
+	    overflow: visible;
+	    position: static;
+	    width: auto;
+	}
+}
+
+
+@mixin size($width, $height) {
+	width: $width;
+	@if $height {
+	height: $height;
+	} else {
+	height: $width;
+	}
+}
+
+@mixin arrow($pos, $size, $bg-color) {
+	width: 0;
+	height: 0;
+	border: $size solid transparent;
+	border-#{$pos}-color: $bg-color;
+}
+
+// 320 and up
+
+@mixin font-size($font-size: 16) {
+font-size : #{$font-size}px;
+font-size : #{$font-size / 10}rem;
+}
+
+// https://github.com/fffunction/sassaparilla/blob/master/assets/css/libs/_typography.scss
+
+$public_path: "./";
+
+@mixin vector-bg-with-fallback($name) {
+  background-image: url('#{$public_path}images/#{$name}.png');
+  background-image: none, url('#{$public_path}images/#{$name}.svg');
+}
+
+// https://github.com/malarkey/320andup/blob/master/scss-compass/_typography.scss
+
+@mixin font-size($font-size: 16) {
+font-size : #{$font-size}px;
+font-size : #{$font-size / 10}rem;
+}
+
+
+@mixin placeholder($color: $input-color-placeholder) {
+  &:-moz-placeholder            { color: $color; } // Firefox 4-18
+  &::-moz-placeholder           { color: $color; } // Firefox 19+
+  &:-ms-input-placeholder       { color: $color; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: $color; } // Safari and Chrome
+}
+
+
+// https://github.com/jakearchibald/sass-ie/
+
+$fix-mqs: false !default;
+
+@mixin respond-min($width) {
+	@if $fix-mqs {
+		@if $fix-mqs >= $width {
+			@content;
+		}
+	}
+	@else {
+		@media screen and (min-width: $width) {
+			@content;
+		}
+	}
+}
+@mixin respond-max($width) {
+	@if $fix-mqs {
+		@if $fix-mqs <= $width {
+			@content;
+		}
+	}
+	@else {
+		@media screen and (max-width: $width) {
+			@content;
+		}
+	}
+}
+
+$old-ie: false !default;
+
+@mixin old-ie {
+	@if $old-ie {
+		@content;
+	}
+}

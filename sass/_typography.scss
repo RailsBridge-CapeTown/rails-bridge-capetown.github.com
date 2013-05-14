@@ -1,0 +1,51 @@
+// good measure: 45 to 75 characters
+// 1em is about 2 characters, so use 22 to 38ems
+
+// p {
+//   margin-bottom: 0
+// }
+
+// p + p {
+//   text-indent: 1em;
+//   margin-top: 0
+// }
+
+p, table {
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+p {
+     font-variant-numeric: old style-nums proportional-nums;
+}
+
+
+@media only screen and (min-width: 38em) {
+   p, table {
+     hyphens:none;
+    }
+}
+
+// Consider using columns for larger screens
+// @media only screen and (min-width: 66em) {
+//   column-count:2;
+//   column-gap: 1.5em;
+// }
+
+p {
+     font-variant-numeric: old style-nums proportional-nums;
+}
+
+blockquote {
+  margin: 1.5em;
+}
+
+
+// web font loading classes
+
+// .wf-loading
+// .wf-active
+// .wf-inactive

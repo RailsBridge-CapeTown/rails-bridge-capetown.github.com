@@ -1,0 +1,55 @@
+// Variables
+
+$black: rgb(0,0,0);
+$darkgrey: lighten($black, 25%);
+$grey: lighten($black, 50%);
+$lightgrey: lighten($black, 75%);
+$lightergrey: lighten($black, 90%);
+$white: rgb(255,255,255);
+
+$bodycolor: $white;
+$textcolor: $black;
+
+// Typography
+
+$basefont: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$basefontsize: 16;
+$baselineheight: 1.5em;
+$baseheadingfont: inherit;
+$baseheadingfontweight: bold;
+$baseheadingfontcolor: inherit;
+
+$altfont: Cambria, Georgia, Times, "Times New Roman";
+$altlineheight: 1.35em;
+
+$codefont: Monaco, Courier New, monospace;
+
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+
+// Colour
+
+$primaryColor:#000;
+$secondaryColor:#fff;
+// $tertiaryColor: #;
+// $bordercolor: lighten($primaryColor, 60%);
+$basecolor: $primaryColor;
+
+// Links
+
+$linkcolor: #4284D3;
+$linkcolorhover: lighten($linkcolor, 10);
+$linkcolorvisited: darken($linkcolor, 10);
+$linkcolorfocus: lighten($linkcolorhover, 10);
+
+
+$breakpointL: '60em';
+
+// Branding
+
+$brand-primary: #ff5c00; //orange
+$brand-success: #5cb85c;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$brand-info: #5bc0de;

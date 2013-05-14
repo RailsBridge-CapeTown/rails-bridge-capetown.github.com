@@ -1,0 +1,57 @@
+@import "typography";
+
+// Links
+
+a {
+  text-decoration : none;
+  color : $linkcolor;
+  &:visited {
+    color : $linkcolorvisited;
+  }
+  &:hover {
+    text-decoration : underline;
+    color : $linkcolorhover;
+  }
+  &:focus {
+    outline : thin dotted;
+    color : $linkcolorfocus;
+  }
+  &:hover,
+  &:active {
+    outline : 0;
+  }
+}
+
+::-moz-selection {
+  background-color : lighten($basecolor, 65%);
+  color : $basecolor;
+  text-shadow : none;
+}
+
+::selection {
+  background-color : lighten($basecolor, 65%);
+  color : $basecolor;
+  text-shadow : none;
+}
+
+hr {
+  display : block;
+  margin : 1em 0;
+  padding : 0;
+  height : 1px;
+  border : 0;
+  border-top : 1px solid $grey;
+  border-bottom : 1px solid $white;
+}
+
+// img
+
+img {
+  border-width : 0;
+  vertical-align : middle;
+  -ms-interpolation-mode : bicubic;
+}
+
+svg:not(:root) {
+  overflow : hidden;
+}
