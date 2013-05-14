@@ -96,7 +96,7 @@ Link to Classroom7 forms
 
 * **Rich Archer** He's been working as a front-end developer for 6 years in London, but recently upped sticks and moved to beautiful Cape Town. He loves that he gets to work with a fantastic team of like-minded folk that are all as passionate about the web as him, and gets to enjoy the beach, beer and braai lifestyle of South Africa at the same time.
 
-* **Andrew Higson-Smith**
+* **Andrew Higson-Smith** Andrew has worked professionally as a programmer since he left school, using a broad range of operating systems, languages and technologies over the years. Currently he consults on several medium sized technical projects under the banner of Elementalsystems.
 
 * **Rudy Neeser**
 
