@@ -3,4 +3,4 @@ railsbridgecapetown.org
 
 The RailsBridgeCapeTown.org web site
 
-Please make change on the gh-pages branch. Thanks!
+Changes are now made on the master branch.
