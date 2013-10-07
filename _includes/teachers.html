@@ -53,13 +53,13 @@
           function recommend() {
             var now = new Date(),
                 liquid = 'Coffee';
-            if(now.getDay() >= 5 && now.getHours() > 17) {
+            if(now.getDay() >= 5 && now.getHours() >= 17) {
               liquid = 'Beer';
-            } else if((now.getDay() == 6 || now.getDay() == 0) && now.getHours() > 12) {
+            } else if((now.getDay() == 6 || now.getDay() == 0) && now.getHours() >= 12) {
               liquid = 'Cider';
-            } else if (now.getHours() > 19) {
+            } else if (now.getHours() >= 19) {
               liquid = 'Scotch';
-            } else if (now.getHours() > 13) {
+            } else if (now.getHours() >= 13) {
               liquid = 'Litchi Juice';
             }
             document.getElementById('marc_input').innerHTML = liquid;
