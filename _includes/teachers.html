@@ -44,6 +44,32 @@
         writes code, swims and bakes bread. Not always at the same time. You can find him at <a href="http://kempe.net">kempe.net</a> or on Twitter at <a href="https://twitter.com/longhotsummer">@longhotsummer</a>.
       </p>
     </li>
+    <li>
+      <p>
+        <strong>Marc Heiligers</strong>
+        Marc turns liquid input into code output. The quality and creativeness of the code depends on the type, quantity and quality of the input liquid and time of day. The current recommended input is <span id='marc_input'></span>.
+        <script>
+        (function() {
+          function recommend() {
+            var now = new Date(),
+                liquid = 'Coffee';
+            if(now.getDay() >= 5 && now.getHours() > 17) {
+              liquid = 'Beer';
+            } else if((now.getDay() == 6 || now.getDay() == 0) && now.getHours() > 12) {
+              liquid = 'Cider';
+            } else if (now.getHours() > 19) {
+              liquid = 'Scotch';
+            } else if (now.getHours() > 13) {
+              liquid = 'Litchi Juice';
+            }
+            document.getElementById('marc_input').innerHTML = liquid;
+          }
+          recommend();
+          setTimeout(recommend, 1000);
+        })();
+        </script>
+      </p>
+    </li>
   </ul>
 
   <h2 id="organisers">Organisers</h2>
