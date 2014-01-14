@@ -1,0 +1,36 @@
+<section>
+
+  <h2 id="teachers">Teachers</h2>
+
+  <ul>
+    <li><p><strong>Stuart Corbishley</strong> is an experienced software developer specializing in Ruby, Rails and systems integration. Having a background in scaling and automation he is also a practiced photographer, bringing a passion for simple and beautiful designs inside and out.</p></li>
+    <li><p><strong>Nina Schiff</strong> works as part of the AWS EC2 team, building things in the cloud (but mainly getting to grips with many more acronyms). In her free time she helps run <a href="http://www.umonya.org">Umonya</a>, an organisation that teaches school kids to code. She can also touch type with just two fingers.</p></li>
+    <li><p><strong>Rory McKinley</strong> has been letting software escape into the wild for more than 12 years. He works at Hetzner, where he is lucky enough to work with people who are a lot smarter than he is.</p></li>
+    <li><p><strong>Ben Janecke</strong> loves bad jokes thinks far too highly of javascript and node.js and works on bridging the gap between the front and back end of things at Unboxed Consulting.</p></li>
+    <li><p><strong>Marc Heiligers</strong> turns liquid input into code output. The quality and creativeness of the code depends on the type, quantity and quality of the input liquid and time of day. The current recommended input is <span id='marc_input'></span>.<script>
+        (function() {
+          var translate = { 'C': 'Coffee', 'I': 'Cider', 'S': 'Scotch', 'L': 'Litchi Juice', 'B': 'Beer' },
+              recommendation = 'CCCCCCCCCCCCIIIIIIIIIIIICCCCCCCCCCCCCLLLLLLSSSSSCCCCCCCCCCCCCLLLLLLSSSSSCCCCCCCCCCCCCLLLLLLSSSSSCCCCCCCCCCCCCLLLLLLSSSSSCCCCCCCCCCCCCLLLLBBBBBBBCCCCCCCCCCCCIIIIIBBBBBBB';
+          function recommend(now) {
+            if(!now) now = new Date();
+            document.getElementById('marc_input').innerHTML = translate[recommendation.charAt(now.getDay() * 24 + now.getHours() - 1)];
+          }
+          recommend();
+          setInterval(recommend, 1000);
+        })();
+        </script></p></li>
+    <li><p><strong>Elizabeth Braae</strong></p></li>
+    <li><p><strong>Wiehann Radyn</strong></p></li>
+    <li><p><strong>Rizmari Versfeld</strong></p></li>
+  </ul>
+
+  <h2 id="organisers">Organisers</h2>
+
+  <ul>
+    <li><p><strong>Steve Barnett</strong> Steve has a background in Maths and finance and started work as a Front End Developer in 2005, escaping to South Africa from his native England. He works at <a href="http://userexperience.co.za/">Flow Interactive</a>, and he&#8217;s most interested in the multi-device world and making the web accessible to all. You can find him at <a href="http://naga.co.za/">naga.co.za</a> or on Twitter as <a href="https://twitter.com/maxbarners">@maxbarners</a>.</p></li>
+    <li><p><strong>Rich Archer</strong> <a href="https://twitter.com/slocombe" title="@slocombe">Rich</a> has an animation background, where he discovered a love of agonising over minuti&aelig; that most people don't notice or, indeed, care about. This transferred easily into web development 12 years ago and he now sweats the details over how fast his JavaScript runs in Android browsers and whether he really <i>should</i> have used an '&aelig;' in that last sentence.</p></li>
+    <li><p><strong>Heidi de Villiers</strong> is a tickled pink ScrumMaster for wacko DevOps masterminds at Hetzner who's obsessed with Battlefield and talking nonsence. Passionate about accelerating agile, girl going geek, confessed shoe addict and periodic troublemaker!</p></li>
+    <li><p><strong>Claire Hammon</strong> is a dev dame &amp; scrum master in the making. Aiming to bring an infusion of the kick she gets out of team happiness with the belief of #knowcando. Heads up: woohoos come standard.</p></li>
+  </ul>
+
+</section>
