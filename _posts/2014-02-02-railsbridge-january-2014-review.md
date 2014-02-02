@@ -30,7 +30,7 @@ About a quarter of our students said that they were **unfamiliar** with developm
 
 ![Bar chart of the development-related computer tools results](/images/2014-01/dev.png)
 
-For Ruby and Ruby on Rails, about 80% said they felt **familiar** with Ruby on Rails after the workshop. That's great! About 10% said they there were still **unfamiliar** with it, and about 10% said they were **very familia**r with it.
+For Ruby and Ruby on Rails, about 80% said they felt **familiar** with Ruby on Rails after the workshop. That's great! About 10% said they there were still **unfamiliar** with it, and about 10% said they were **very familiar** with it.
 
 ![Bar chart of the Ruby and Ruby on Rails results](/images/2014-01/ruby-ror.png)
 
