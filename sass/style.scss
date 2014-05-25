@@ -93,12 +93,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
-
-
-
+.thumb {
+  width: 49%;
+  margin-bottom: 1em;
+  &:nth-of-type(odd) {
+    float: left;
+  }
+  &:nth-of-type(even) {
+    float: right;
+  }
+}
 
 
 
