@@ -9,11 +9,13 @@ A little while ago, we held [our fifth RailsBridge Cape Town workshop](/2014-07.
 
 As usual, we bugged our students for lots of feedback about the course and the workshop itself, and they gave us lots of great info to help make it better.
 
-#### Responses
+---
 
-We used google docs survey for a short pre and post survey, asking about the students' familiarity with computers and computing tasks. Of the 17 students, about half filled in the survey. The survey is anonymous, because we want to make sure that people feel comfortable enough to give truthful feedback, especially if there's something bad. That also means we don't know which students have completed it, though, so we can't nudge people who skip it. Maybe that's okay, though.
+TODO: summary, venue, etc
 
 #### Familiarity
+
+TODO: graphic, then bullets of chart summary
 
 We changed up our entry survey a little this time. Instead of words for the rankings, we used smileys, to try and make it a bit more friendly and informal. The smileys are ranked 1 - `>:(`&nbsp;&nbsp;&nbsp;2 - `:(`&nbsp;&nbsp;&nbsp;3 - `:-|`&nbsp;&nbsp;&nbsp;4 - `:)`&nbsp;&nbsp;&nbsp;5 - `:D`.
 
@@ -29,6 +31,8 @@ The average for **familiarity with Ruby and Ruby on Rails** went from 2.6 to 4. 
 
 70% of the students rated the workshop Really Good, and 30% rated it Good. That's great, thank you!
 
+TODO: ^^^ chart!
+
 We asked them what **the best thing** about the workshop was. Lots of students mentioned the friendly and helpful teachers. Teachers, you rock! People also mentioned how fun the learning was, especially for programming stuff. Another theme that came up was the inclusive and friendly environment. This is particularly happy-making: we try really hard to do this, and it's really good to hear students say that we're getting it right.
 
 We also asked them what **the worst thing** about the workshop was. Students mentioned that all the new information can be overwhelming, and that the technical terms and language can be confusing. We're going to have another look at the Glossary, and see if we can improve it a bit more.
@@ -39,7 +43,11 @@ We experimented with having lunch out of the venue, and although the food was gr
 
 The differences between local and heroku, specifically about running a web server, were also mentioned. We're going too add deeper explanations of this to the docs.
 
+TODO: ^^^ slice into best, worst, differnt sections, with bullets. more slideshow-like
+
 #### Other feedback forms
+
+TODO: pull this into ^^^, but say that we used several sources
 
 We also had lots of chatting to students and asking them to put up stickies on the wall whenever they found something that made them mad, glad, or sad. Here are some bullet points of things that came up. Students said that the section in the docs on deploying to heroku for first time / every time isn't clear. We either need to change the formatting a bit, or split these into separate page. They also said that the documentation needs to be clearer about saving your edits to text files.
 
@@ -47,6 +55,8 @@ Shared laptops are difficult. We experienced this at our [RailsBridge at the Ban
 
 
 ### Improvements from the April workshop
+
+TODO: bulletise it, move it to top
 
 Carrying on some improvements from the April workshop, we added another lightning talk. Rory reprised his "Why Software Development" talk, and we added Ben to the roster, with a talk about how Ruby on Rails is used to build really cool things.
 
