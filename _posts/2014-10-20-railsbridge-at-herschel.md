@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RailsBridge at Herschel schhol
+title: RailsBridge at Herschel school
 ---
 
 
