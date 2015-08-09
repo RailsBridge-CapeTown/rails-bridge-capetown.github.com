@@ -405,22 +405,62 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "adelle sans", sans-serif;
 }
 
-.nav {
-  background: $brand-primary;
+.nav, .nav-alt {
   text-align: center;
   ul {
     margin: 0;
     padding: 0;
   }
-}
-
-.nav-item {
+  li {
+    @media (min-width: 40em) {
+      display: inline-block;
+    }
+  }
   a {
     display: block;
-    color: #fff;
     padding: 0.5em 1em;
-    &:hover {
-      background: darken($brand-primary, 10%);
+    @media (min-width: 40em) {
+      display: inline-block;
+    }
+  }
+}
+
+.nav {
+    ul {
+      background: $brand-primary;
+    }
+    a {
+      color: #fff;
+      padding: 0.5em 1em;
+      &:hover {
+        background: darken($brand-primary, 10%);
+      }
+    }
+}
+
+.nav-alt {
+  @media (min-width: 30em) {
+    margin: 0 auto;
+    max-width: 30em;
+  }
+  li {
+    @media (min-width: 30em) {
+      &:after {
+        content: ",";
+      }
+      &:last-child {
+        &:before {
+          content: " and ";
+        }
+        &:after {
+          content: ".";
+        }
+      }
+    }
+  }
+  a {
+    @media (min-width: 30em) {
+      padding: 0.5em 0;
     }
   }
 }
