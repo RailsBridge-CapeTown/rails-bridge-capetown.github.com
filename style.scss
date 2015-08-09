@@ -363,6 +363,10 @@ body {
   margin: 0 auto;
 }
 
+a {
+    word-wrap: break-word;
+}
+
 a:link {
   color: $linkcolor;
   text-decoration: underline;
@@ -404,7 +408,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
   background: $brand-primary;
   text-align: center;
-  padding: 1em;
   ul {
     margin: 0;
     padding: 0;
@@ -412,11 +415,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-item {
-  display: inline;
-  margin: 0 1em;
   a {
+    display: block;
     color: #fff;
-    padding: 1em;
+    padding: 0.5em 1em;
+    &:hover {
+      background: darken($brand-primary, 10%);
+    }
   }
 }
 
