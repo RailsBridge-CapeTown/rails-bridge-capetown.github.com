@@ -425,6 +425,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#past-events,
+#past-events-special,
+#reviews {
+  &:target {
+    background: lighten($brand-primary, 45%);
+    h4 {
+      &:before {
+        content: "→";
+        display: inline-block;
+        padding-right: 0.5em;
+        font-size: 1.5em;
+        position: relative;
+        top: 0.1em;
+      }
+    }
+  }
+}
+
 .nav {
     ul {
       background: $brand-primary;
@@ -439,6 +457,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-alt {
+  h4 {
+    margin: 2em 0 0 0;
+  }
   @media (min-width: 30em) {
     margin: 0 auto;
     max-width: 30em;
