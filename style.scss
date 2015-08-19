@@ -427,7 +427,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #past-events,
 #past-events-special,
-#reviews {
+#reviews,
+#misc {
   &:target {
     background: lighten($brand-primary, 45%);
     h4 {
