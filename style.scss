@@ -526,3 +526,19 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
   margin-top: 0;
 }
+
+main {
+  h2:target,
+  h3:target,
+  h4:target {
+    background: lighten($brand-primary, 45%);
+    &:before {
+      content: "→";
+      display: inline-block;
+      padding-right: 0.5em;
+      font-size: 1.5em;
+      position: relative;
+      top: 0.1em;
+    }
+  }
+}
