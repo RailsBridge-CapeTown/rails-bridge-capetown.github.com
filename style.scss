@@ -542,3 +542,20 @@ main {
     }
   }
 }
+
+article:target {
+  background: lighten($brand-primary, 45%);
+  margin: -0.5em -1em;
+  padding: 0.5em 1em;
+  h2, h3, h4 {
+    margin-top: 0;
+    position: relative;
+    &:before {
+      content: "→";
+      font-size: 1.5em;
+      position: absolute;
+      top: -0.3em;
+      left: -2em;
+    }
+  }
+}
