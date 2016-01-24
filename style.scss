@@ -529,6 +529,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 main {
+  h1:target,
   h2:target,
   h3:target,
   h4:target {
@@ -548,7 +549,7 @@ article:target {
   background: lighten($brand-primary, 45%);
   margin: -0.5em -1em;
   padding: 0.5em 1em;
-  h2, h3, h4 {
+  h1, h2, h3, h4 {
     margin-top: 0;
     position: relative;
     &:before {
