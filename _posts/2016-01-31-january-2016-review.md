@@ -5,7 +5,7 @@ title: RailsBridge January 2016 Review
 
 The evening of Friday 29th and day of Saturday 30th January 2016 saw us running **our first RailsBridge workshop of the year**, with 27 students of varying experience levels learning and helping others learn [Ruby On Rails](http://rubyonrails.org/).
 
-Super-sized thanks to our sponsors: [codeX](http://www.projectcodex.co/) (where I work) for providing the venue and [RubyFuza](http://rubyfuza.org/) (Africa's premier Ruby conference, happening on the 4th and 5th of February) for sponsoring food and drink throughout the event. You rock!
+Super-sized thanks to our sponsors: [codeX](http://www.projectcodex.co/) (where I work) for providing the venue and [RubyFuza](http://www.rubyfuza.org/) (Africa's premier Ruby conference, happening on the 4th and 5th of February) for sponsoring food and drink throughout the event. You rock!
 
 ## New stuff
 
