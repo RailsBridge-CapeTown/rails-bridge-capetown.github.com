@@ -33,6 +33,6 @@ For this year, we're planning workshops for the ends of April, July, and October
 
 ---
 
-Steve Barnett<br />
+[Steve Barnett](http://www.meetup.com/RailsBridge-Cape-Town/members/60870592/)<br />
 **Organiser Person**<br />
 [@maxbarners](http://twitter.com/maxbarners)
