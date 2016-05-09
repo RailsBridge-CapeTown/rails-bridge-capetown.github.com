@@ -445,6 +445,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#stats {
+  &:target {
+    background: lighten($brand-primary, 45%);
+    padding: 0.1em 1em;
+  }
+}
+
 .nav {
     ul {
       background: $brand-primary;
