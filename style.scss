@@ -374,11 +374,12 @@ a:link {
 
 a:hover, a:active, a:focus {
   color: $linkcolorhover;
+  text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "adelle-sans", sans-serif;
-  color: #A63C00;
+  color: $red;
 }
 
 .cta {
@@ -391,18 +392,21 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding: 0.5em 1em;
     &:hover {
-      background: lighten($brand-primary, 10);
+      background: darken($brand-primary, 30%);
     }
   }
 }
 
 .hero {
   text-align: center;
-  border: solid 1px darken($brand-primary, 20);
+  background-color: $brand-primary;
   border-radius: 0.25em;
   padding: 1em;
-  font-weight: bold;
   font-family: "adelle sans", sans-serif;
+  color: white;
+  h1 {
+    color: white;
+  }
 }
 
 .nav, .nav-alt {
@@ -431,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 #misc,
 #eligibility-criteria {
   &:target {
-    background: lighten($brand-primary, 45%);
+    background: lighten($brand-primary, 30%);
     h4 {
       &:before {
         content: "→";
@@ -447,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #stats {
   &:target {
-    background: lighten($brand-primary, 45%);
+    background: lighten($brand-primary, 30%);
     padding: 0.1em 1em;
   }
 }
@@ -460,7 +464,7 @@ h1, h2, h3, h4, h5, h6 {
       color: #fff;
       padding: 0.5em 1em;
       &:hover {
-        background: darken($brand-primary, 10%);
+        background: darken($brand-primary, 30%);
       }
     }
 }
@@ -474,7 +478,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 30em;
   }
   li {
-    @media (min-width: 30em) {
+    @media (min-width: 40em) {
       &:after {
         content: ",";
       }
@@ -496,7 +500,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-header {
-  border-bottom: solid 1px #A63C00;
+  border-bottom: solid 1px $red;
 }
 
 .sign-up {

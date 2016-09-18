@@ -38,17 +38,20 @@ $basecolor: $primaryColor;
 
 // Links
 
-$linkcolor: #4284D3;
-$linkcolorhover: lighten($linkcolor, 10);
-$linkcolorvisited: darken($linkcolor, 10);
-$linkcolorfocus: lighten($linkcolorhover, 10);
+$linkcolor: #337ab7;
+$linkcolorhover: darken($linkcolor, 10);
+$linkcolorvisited: $linkcolor;
+$linkcolorfocus: darken($linkcolorhover, 10);
 
 
 $breakpointL: '60em';
 
 // Branding
 
-$brand-primary: #ff5c00; //orange
+$brand-primary: #EB6852; // coral
+$red: #B3282D;
+$dark-red: #831A27;
+
 $brand-success: #5cb85c;
 $brand-warning: #f0ad4e;
 $brand-danger: #d9534f;
