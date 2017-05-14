@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RailsBridge for WICT at UCT, 2017 edition
+title: RailsBridge for WICS at UCT, 2017 edition
 ---
 
 [![](/images/2017-05-uct/thumbs/wics.jpg){: .fl}](/images/2017-05-uct/wics.jpg)
