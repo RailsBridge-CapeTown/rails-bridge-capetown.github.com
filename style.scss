@@ -107,11 +107,19 @@ textarea {
   }
 }
 
+.fl {
+    float: left;
+    margin: 0 1em 1em 0;
+}
 
+.fr {
+    float: right;
+    margin: 0 0 1em 1em;
+}
 
-
-
-
+h1, h2, h3 {
+    clear: both;
+}
 
 
 
