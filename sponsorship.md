@@ -3,7 +3,7 @@ layout: default
 title: Sponsorship - RailsBridge Cape Town
 ---
 
-[RailsBridge Cape Town](http://railsbridgecapetown.org/) is the local chapter of [RailsBridge](http://railsbridge.org/). We've been running free workshops helping people learn Rails, Ruby, HTML, CSS, and JavaScript [since {{ site.data.stats.since }}](https://railsbridgecapetown.org/#past-events). The workshops are targeted at **groups of people that are underrepresented in tech**; we want to help increase diversity in tech, to help all people feel welcome and comfortable in our industry.
+[RailsBridge Cape Town](http://railsbridgecapetown.org/) is the local chapter of [RailsBridge](http://railsbridge.org/). We've been running free workshops helping people learn Rails, Ruby, HTML, CSS, and JavaScript [since July 2013](https://railsbridgecapetown.org/#past-events). The workshops are targeted at **groups of people that are underrepresented in tech**; we want to help increase diversity in tech, to help all people feel welcome and comfortable in our industry.
 
 We've had a total of {{ site.data.stats.workshops }} workshops (at various offices, at the Bandwidth Barn in Woodstock, at the University of Cape Town, at Herschel school) and have had over {{ site.data.stats.peopleish }} attendees. Our [meetup group](http://www.meetup.com/RailsBridge-Cape-Town/members/), which we've been using to track attendance since April 2014, has over {{ site.data.stats.meetupmembers }} members. For each workshop, we aim for between 20 and 30 people. We try and keep the number around there so that we can have a good balance of mentors to attendees. 
 
