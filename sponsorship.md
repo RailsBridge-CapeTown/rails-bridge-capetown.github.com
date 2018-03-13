@@ -7,7 +7,7 @@ title: Sponsorship - RailsBridge Cape Town
 
 The main thing we need sponsorship for is **breakfast and lunch for our attendees**. This usually costs **around R2,000** for 30 people. Supporting RailsBridge shows that you value diversity and inclusion in tech. Read on for more about what we need and what's in it for you. :)
 
-If you'd like to sponsor a RailsBridge, [drop us an email](mailto:hello@railsbridgecapetown.org?subject=Sponsorship) or [find us on meetup](https://www.meetup.com/RailsBridge-Cape-Town/members/?op=leaders)!
+If you'd like to sponsor a RailsBridge, [contact us on meetup](https://www.meetup.com/RailsBridge-Cape-Town/members/?op=leaders)!
 
 ## What do we need?
 
@@ -37,4 +37,4 @@ All of the course material is open source and online at [docs.railsbridgecapetow
 
 ---
 
-If you'd like to sponsor a RailsBridge, [drop us an email](mailto:hello@railsbridgecapetown.org?subject=Sponsorship) or [find us on meetup](https://www.meetup.com/RailsBridge-Cape-Town/members/?op=leaders)!
+If you'd like to sponsor a RailsBridge, [contact us on meetup](https://www.meetup.com/RailsBridge-Cape-Town/members/?op=leaders)!
